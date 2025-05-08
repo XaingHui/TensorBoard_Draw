@@ -114,6 +114,10 @@ def plot_selected_scalars(selected_paths, selected_scalars, title_map, xlabel, y
         ax.set_xlabel(xlabel if xlabel else "Step", fontproperties=font_props)
         ax.set_ylabel(ylabel if ylabel else "Value", fontproperties=font_props)
         ax.tick_params(axis='both', labelsize=font_size)
+
+        # ✅ 设置坐标轴刻度的字体属性（包括 10/20 等数字）
+        for label in (ax.get_xticklabels() + ax.get_yticklabels()):
+            label.set_fontproperties(font_props)
         if show_grid:
             ax.grid(True)
         ax.legend(prop=font_props)
