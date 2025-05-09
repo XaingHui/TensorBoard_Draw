@@ -18,5 +18,9 @@
 
 ## 📦 安装依赖
 
+## 📦 更多建议、功能想法
+邮箱: 1417401429@qq.com
+qq : 1417401429
+
 ```bash
 pip install gradio matplotlib tensorboard
