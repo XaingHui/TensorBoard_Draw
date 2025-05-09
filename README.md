@@ -16,11 +16,15 @@
   - 字体选择与上传
 - 一键保存高质量图片！
 
-## 📦 安装依赖
-
 ## 📦 更多建议、功能想法
 邮箱: 1417401429@qq.com
 qq : 1417401429
 
+## 📦 安装依赖
+
 ```bash
 pip install gradio matplotlib tensorboard
+'''
+
+
+
