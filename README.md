@@ -24,7 +24,7 @@ qq : 1417401429
 
 ```bash
 pip install gradio matplotlib tensorboard
-'''
+```
 
 
 
